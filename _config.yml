@@ -1,0 +1,53 @@
+title: "Conscious Coder"
+description: "Blending Code and Consciousness"
+url: "https://preethamyt.github.io"
+baseurl: ""
+
+author:
+  name: "Preetham Rao"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+show_excerpts: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Preetham Rao"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Social links
+social_links:
+  - { platform: youtube, user_url: "https://www.youtube.com/@PreethamYT" }
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - README.md

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <p class="hero-label">Writing by Preetham Rao</p>
+  <h1 class="hero-title">Conscious Coder</h1>
+  <p class="hero-sub">GSoC prep · DSA · Full-stack · Notes on the craft of software engineering.</p>
+</section>
+
+<section class="post-list-section">
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <div class="post-card-meta">
+            <time>{{ post.date | date: "%b %d, %Y" }}</time>
+            {% if post.categories.size > 0 %}
+              {% for cat in post.categories %}
+                <span class="tag">{{ cat }}</span>
+              {% endfor %}
+            {% endif %}
+          </div>
+          <h2 class="post-card-title">{{ post.title }}</h2>
+          {% if post.excerpt %}
+            <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+          {% endif %}
+          <span class="post-card-cta">Read &rarr;</span>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state">
+      <p>No posts yet — first one coming soon.</p>
+    </div>
+  {% endif %}
+
+  {{ content }}
+</section>
