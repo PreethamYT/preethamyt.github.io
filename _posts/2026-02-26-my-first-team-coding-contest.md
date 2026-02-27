@@ -12,7 +12,7 @@ Anyways,
 
 ---
 
-This team contest, my first team contest, was held on 25th Feb 2026, On a Wednesday, The weather was kinda cool and calming (kind odd since it's the start of the summer), The maximum team size was set to 5, and the least was set to 2, by our Beloved Aniketh Sir from Smart Interviews (Contest was from their side too), I think it's time I introduce what Smart Interviews is doing there, So our college has hired Smart Interviews to train the students at our college for training, moving on...My team....Yeah 4 of us in total, so One guy sticks to Python, One guy knows literally Java, CPP AND Python(a lil), Java, and me, CPP(just starting), Python,and Java ( Not my primary choice though ).
+This team contest, my first team contest, was held on 25th Feb 2026, On a Wednesday, The weather was kinda cool and calming (kind odd since it's the start of the summer), The maximum team size was set to 5, and the least was set to 2, by our Beloved Aniketh Sir from Smart Interviews (Contest was from their side too), I think it's time I introduce what Smart Interviews is doing there, So our college has hired Smart Interviews to train the students at our college for training, moving on...My team....Yeah 4 of us in total, so One guy sticks to Python, One guy knows literally Java, CPP AND Python(a lil), Java, and me, CPP(just starting), Python,and Java ( Not my primary choice though ) lastly one guy purely Java.
 
 ---
 
