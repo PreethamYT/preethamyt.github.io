@@ -10,7 +10,7 @@ Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://
 
 ## What this blog is about
 
-Focused on Learning · DSA · Full-stack · Notes on the craft of software engineering.
+Understanding how to actually grow.
 
 Weekly reflections, problem-solving write-ups, project devlogs, and the occasional thought on studying and working with intention.
 
